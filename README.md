@@ -36,5 +36,8 @@ To fine-tune the model on the IMDb dataset with LoRA:
 
   ```bash
   python train.py
-
+```
 This will:
+- Fine-tune distilbert-base-uncased using LoRA on 10,000 training samples and 2,000 testing samples.
+
+- Save the fine-tuned model and tokenizer to the ./models/lora_finetuned directory.
