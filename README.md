@@ -68,3 +68,18 @@ When the CLI starts, you can:
 - help → Display the available commands.
 
 - exit → Save analytics and exit.
+
+## 📊 Analytics Features
+The system:
+
+- Tracks each prediction’s confidence, fallback trigger, and timestamps.
+
+- Logs all activity to ./logs/pipeline.log.
+
+- Saves detailed session history to ./logs/analytics_stats.json.
+
+- Shows CLI-based confidence histograms.
+
+- Displays session and historical fallback rates.
+
+- Generates matplotlib plots of confidence curves and fallback distributions.
