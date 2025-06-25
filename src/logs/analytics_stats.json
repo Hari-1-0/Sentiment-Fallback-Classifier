@@ -1,0 +1,118 @@
+{
+  "sessions": [
+    {
+      "session_start": "2025-06-25T18:58:24.407385",
+      "session_end": "2025-06-25T19:05:42.355689",
+      "total_predictions": 6,
+      "fallback_count": 1,
+      "avg_confidence": 0.8695925374825796,
+      "data": {
+        "confidence_scores": [
+          0.9770445823669434,
+          0.9782083630561829,
+          0.9434595108032227,
+          0.6420620679855347,
+          0.9680513143539429,
+          0.7087293863296509
+        ],
+        "predictions": [
+          "Positive",
+          "Negative",
+          "Positive",
+          "Negative",
+          "Negative",
+          "Negative"
+        ],
+        "final_labels": [
+          "Positive",
+          "Negative",
+          "Positive",
+          "Positive",
+          "Negative",
+          "Negative"
+        ],
+        "fallback_triggers": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "timestamps": [
+          "2025-06-25T18:58:24.407385",
+          "2025-06-25T18:58:29.906647",
+          "2025-06-25T18:58:35.745163",
+          "2025-06-25T18:58:47.955497",
+          "2025-06-25T18:58:59.943090",
+          "2025-06-25T19:05:31.750056"
+        ],
+        "inputs": [
+          "The movie was good",
+          "I hated the movie",
+          "The movie was ok",
+          "I am not so sure about the movie",
+          "The movie was terrible",
+          "quit"
+        ]
+      }
+    },
+    {
+      "session_start": "2025-06-25T18:58:24.407385",
+      "session_end": "2025-06-25T19:05:42.403181",
+      "total_predictions": 6,
+      "fallback_count": 1,
+      "avg_confidence": 0.8695925374825796,
+      "data": {
+        "confidence_scores": [
+          0.9770445823669434,
+          0.9782083630561829,
+          0.9434595108032227,
+          0.6420620679855347,
+          0.9680513143539429,
+          0.7087293863296509
+        ],
+        "predictions": [
+          "Positive",
+          "Negative",
+          "Positive",
+          "Negative",
+          "Negative",
+          "Negative"
+        ],
+        "final_labels": [
+          "Positive",
+          "Negative",
+          "Positive",
+          "Positive",
+          "Negative",
+          "Negative"
+        ],
+        "fallback_triggers": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "timestamps": [
+          "2025-06-25T18:58:24.407385",
+          "2025-06-25T18:58:29.906647",
+          "2025-06-25T18:58:35.745163",
+          "2025-06-25T18:58:47.955497",
+          "2025-06-25T18:58:59.943090",
+          "2025-06-25T19:05:31.750056"
+        ],
+        "inputs": [
+          "The movie was good",
+          "I hated the movie",
+          "The movie was ok",
+          "I am not so sure about the movie",
+          "The movie was terrible",
+          "quit"
+        ]
+      }
+    }
+  ]
+}

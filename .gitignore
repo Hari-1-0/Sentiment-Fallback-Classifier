@@ -1,12 +1,10 @@
 myenv/
-
+.gitignore
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
 .vscode/
-
-logs/
 
 .DS_Store

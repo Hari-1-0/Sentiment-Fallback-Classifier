@@ -1,0 +1,15 @@
+2025-06-25 18:58:24,405 - [InferenceNode] Input: The movie was good | Predicted: Positive | Confidence: 0.98
+2025-06-25 18:58:24,406 - [ConfidenceCheckNode] Confidence: 0.98 (Accepted)
+2025-06-25 18:58:24,407 - [AcceptNode] Final label accepted: Positive
+2025-06-25 18:58:29,905 - [InferenceNode] Input: I hated the movie | Predicted: Negative | Confidence: 0.98
+2025-06-25 18:58:29,905 - [ConfidenceCheckNode] Confidence: 0.98 (Accepted)
+2025-06-25 18:58:29,906 - [AcceptNode] Final label accepted: Negative
+2025-06-25 18:58:35,744 - [InferenceNode] Input: The movie was ok | Predicted: Positive | Confidence: 0.94
+2025-06-25 18:58:35,744 - [ConfidenceCheckNode] Confidence: 0.94 (Accepted)
+2025-06-25 18:58:35,745 - [AcceptNode] Final label accepted: Positive
+2025-06-25 18:58:43,303 - [InferenceNode] Input: I am not so sure about the movie | Predicted: Negative | Confidence: 0.64
+2025-06-25 18:58:43,304 - [ConfidenceCheckNode] Confidence: 0.64 (Fallback Triggered)
+2025-06-25 18:58:47,955 - [FallbackNode] User clarified: no | Corrected Label: Positive
+2025-06-25 18:58:59,942 - [InferenceNode] Input: The movie was terrible | Predicted: Negative | Confidence: 0.97
+2025-06-25 18:58:59,942 - [ConfidenceCheckNode] Confidence: 0.97 (Accepted)
+2025-06-25 18:58:59,943 - [AcceptNode] Final label accepted: Negative

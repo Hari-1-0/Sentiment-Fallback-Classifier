@@ -16,7 +16,7 @@ tokenized_datasets = dataset.map(preprocess_function, batched=True)
 tokenized_datasets = tokenized_datasets.rename_column("label", "labels")
 tokenized_datasets.set_format("torch", columns=["input_ids", "attention_mask", "labels"])
 
-train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(10000))  # Smaller subset for faster training
+train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(10000))
 test_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(2000))
 
 model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, num_labels=2)
