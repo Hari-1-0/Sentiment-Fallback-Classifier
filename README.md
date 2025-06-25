@@ -41,3 +41,30 @@ This will:
 - Fine-tune distilbert-base-uncased using LoRA on 10,000 training samples and 2,000 testing samples.
 
 - Save the fine-tuned model and tokenizer to the ./models/lora_finetuned directory.
+## 🧩 Running the LangGraph DAG
+The sentiment classification workflow is managed by a LangGraph DAG with the following nodes:
+
+- InferenceNode: Predicts sentiment and confidence.
+
+- ConfidenceCheckNode: Decides to accept the prediction or trigger fallback based on confidence.
+
+- FallbackNode: Asks the user to manually clarify if confidence is low.
+
+- AcceptNode: Accepts the model’s prediction directly if confidence is sufficient.
+
+To launch the CLI and interact with the LangGraph DAG:
+```bash
+python cli.py
+```
+## 🖥️ CLI Commands and Workflow
+When the CLI starts, you can:
+
+- Enter a review directly → The system will predict sentiment and confidence.
+
+- stats → Show current session fallback statistics and a CLI-based confidence histogram.
+
+- plot → Generate a matplotlib plot of confidence curves and fallback distribution.
+
+- help → Display the available commands.
+
+- exit → Save analytics and exit.
