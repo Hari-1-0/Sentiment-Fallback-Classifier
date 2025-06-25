@@ -9,15 +9,15 @@ This project is a **CLI-based sentiment classifier** that combines:
 ---
 
 ## 📂 Project Structure
--langgraph_classifier
-├──src
-  ├── train.py # Fine-tunes the model using PEFT (LoRA)
-  ├── dag.py # Defines the LangGraph DAG and analytics tracker
-  ├── cli.py # CLI interface to interact with the model and the DAG
-  ├── models/ # Directory where fine-tuned models are saved
-  ├── logs/ # Logs and analytics history
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+-langgraph_classifier/<br />
+├──src<br />
+  ├── train.py # Fine-tunes the model using PEFT (LoRA)<br />
+  ├── dag.py # Defines the LangGraph DAG and analytics tracker<br />
+  ├── cli.py # CLI interface to interact with the model and the DAG<br />
+  ├── models/ # Directory where fine-tuned models are saved<br />
+  ├── logs/ # Logs and analytics history<br />
+├── requirements.txt # Python dependencies<br />
+└── README.md # Project documentation<br />
 
 ---
 
