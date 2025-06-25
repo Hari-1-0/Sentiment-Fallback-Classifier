@@ -25,15 +25,16 @@ This project is a **CLI-based sentiment classifier** that combines:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-project-directory>
+   git clone https://github.com/Hari-1-0/Sentiment-Fallback-Classifier
+   cd langgraph_classifier
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
 
 ## 🏋️ Fine-Tuning Instructions
-
 To fine-tune the model on the IMDb dataset with LoRA:
 
-```bash
-python train.py
+  ```bash
+  python train.py
+
+This will:
