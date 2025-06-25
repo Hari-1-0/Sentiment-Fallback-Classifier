@@ -1,5 +1,6 @@
+#Virtual environment
 myenv/
-.gitignore
+
 __pycache__/
 *.pyc
 *.pyo
