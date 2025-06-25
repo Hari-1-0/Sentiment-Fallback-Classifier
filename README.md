@@ -31,18 +31,9 @@ This project is a **CLI-based sentiment classifier** that combines:
    ```bash
    pip install -r requirements.txt
 
+## 🏋️ Fine-Tuning Instructions
 
+To fine-tune the model on the IMDb dataset with LoRA:
 
-
-
-
-
-
-
-
-
-
-
-
-
-   
+```bash
+python train.py
